@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Delete_and_Earn
 {
@@ -9,7 +8,7 @@ namespace Delete_and_Earn
     static void Main(string[] args)
     {
       Solution s = new Solution();
-      var nums = new int[] { 4, 3, 3, 2, 3, 4, 3, 2 };
+      var nums = new int[] { 7, 5, 7, 5, 8, 8 };
       var answer = s.DeleteAndEarn(nums);
       Console.WriteLine(answer);
     }
